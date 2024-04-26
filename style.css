@@ -1,0 +1,143 @@
+body{
+  background-color:#07081B;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.opps{
+   display:flex;
+  margin: 10px;
+  width:90%;
+}
+.flex{
+  padding-left:30%;
+  width:100%;
+}
+.exit{
+  width:90%;
+}
+label {
+  display: inline;
+  margin-bottom: 10px;
+  color:white;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  color:white;
+  background-color:#252A35;
+  border:1px solid white;
+  border-radius:4px;
+}
+.input{
+  width:100%;
+}
+input[type="submit"] {
+  width: 10%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+.start{
+  display:flex;
+}
+.custom-dropdown {
+  position: relative;
+}
+
+#dropdownBtn {
+  padding: 10px;
+  background:transparent;
+  color:white;
+  border:0 solid white;
+  cursor: pointer;
+}
+#dropdownBtn:hover,#dropdownBtn1:hover{
+ border:1px solid white;
+  border-radius:4px;
+}
+
+#dropdownList {
+  position: absolute;
+  background-color: #53526C;
+  list-style: none;
+  border:1px solid white;
+  border-radius:6px;
+  width:inherit;
+  padding: 0;
+  display: none; /* Initially hidden */
+}
+
+#dropdownList a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#dropdownList a:hover {
+  background-color: #f1f1f1;
+}
+
+.custom-dropdown:hover #dropdownList {
+  display: block; /* Show on hover */
+}
+
+
+#dropdownBtn1 {
+  padding: 10px;
+  background:transparent;
+  color:white;
+  border:0 solid white;
+  cursor: pointer;
+}
+
+#dropdownList1 {
+  position: absolute;
+  background-color: #53526C;
+  list-style: none;
+  border:1px solid white;
+  border-radius:6px;
+  width:inherit;
+  padding: 0;
+  display: none; /* Initially hidden */
+}
+
+#dropdownList1 a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#dropdownList1 a:hover {
+  background-color: #f1f1f1;
+}
+
+.custom-dropdown1:hover #dropdownList1 {
+  display: block; /* Show on hover */
+}
+.title {
+	color: #5C6AC4;
+}
+#homeBtn:hover{
+  background-color: #07080B;
+}
+h2,p{
+  color:white;
+}
+.content{
+  border:1px solid white;
+  border-radius:7px;
+}
